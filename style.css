@@ -4,12 +4,13 @@
 }
 h1{
     font-size: 50px;
+    padding-bottom: 5px;
 }
 #owner{
-    color: orange;
+    color: orangered;
 }
-h3{
-    font-size: 25px;
+h2{
+    padding-bottom: 5px;
 }
 p{
     font-size: 10x;
@@ -40,4 +41,17 @@ p{
     color: darkblue;
     font-weight: bold;
     
+}
+.link{
+    padding-top: 7px;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    height: 700px;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+.timeline{
+    color: yellowgreen;
 }
