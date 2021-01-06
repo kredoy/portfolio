@@ -4,7 +4,8 @@
 }
 h1{
     font-size: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 #owner{
     color: orangered;
@@ -14,6 +15,7 @@ h2{
 }
 p{
     font-size: 10x;
+    padding-top: 5px;
 }
 .part-one{
     width: 40%;
@@ -54,4 +56,39 @@ p{
 }
 .timeline{
     color: yellowgreen;
+}
+#expe1{
+    box-shadow: 10px 10px 40px grey;
+    margin-bottom: 80px;
+    height: 350px;
+    border-radius: 3px;
+    padding-top: 2%;
+    margin-left: 75px;
+    margin-top: 30px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    background-color: white;
+}
+#expe2{
+    box-shadow: 10px 10px 40px grey;
+    margin-bottom: 80px;
+    height: 350px;
+    border-radius: 3px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,lightsalmon);
+    border-image-slice: 1;
+    padding-top: 2%;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+.exprerience{
+    background-image: url(images/exp-bg.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
+    margin-bottom: 75px;
 }
